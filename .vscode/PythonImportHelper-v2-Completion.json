@@ -441,21 +441,147 @@
         "documentation": {}
     },
     {
-        "label": "nal",
+        "label": "n1",
         "kind": 5,
         "importPath": "desafios.de23",
         "description": "desafios.de23",
-        "peekOfCode": "nal = \"Digite um número entre 0 a 9999: \"\nun =",
+        "peekOfCode": "n1 = str(input('Digite um número de 0 a 9999: '))\nn1.split()\n#lista = [0, 1, 2, 3]\nunidade = n1[3]\ndezena = n1[2]\ncentena = n1[1] \nmilhar = n1[0]\nprint(\"\"\"Unidade: {}\nDezena: {}\nCentena: {}",
         "detail": "desafios.de23",
         "documentation": {}
     },
     {
-        "label": "un",
+        "label": "#lista",
         "kind": 5,
         "importPath": "desafios.de23",
         "description": "desafios.de23",
-        "peekOfCode": "un =",
+        "peekOfCode": "#lista = [0, 1, 2, 3]\nunidade = n1[3]\ndezena = n1[2]\ncentena = n1[1] \nmilhar = n1[0]\nprint(\"\"\"Unidade: {}\nDezena: {}\nCentena: {}\nMilhar: {} \"\"\" .format(unidade, dezena, centena, milhar))",
         "detail": "desafios.de23",
+        "documentation": {}
+    },
+    {
+        "label": "unidade",
+        "kind": 5,
+        "importPath": "desafios.de23",
+        "description": "desafios.de23",
+        "peekOfCode": "unidade = n1[3]\ndezena = n1[2]\ncentena = n1[1] \nmilhar = n1[0]\nprint(\"\"\"Unidade: {}\nDezena: {}\nCentena: {}\nMilhar: {} \"\"\" .format(unidade, dezena, centena, milhar))",
+        "detail": "desafios.de23",
+        "documentation": {}
+    },
+    {
+        "label": "dezena",
+        "kind": 5,
+        "importPath": "desafios.de23",
+        "description": "desafios.de23",
+        "peekOfCode": "dezena = n1[2]\ncentena = n1[1] \nmilhar = n1[0]\nprint(\"\"\"Unidade: {}\nDezena: {}\nCentena: {}\nMilhar: {} \"\"\" .format(unidade, dezena, centena, milhar))",
+        "detail": "desafios.de23",
+        "documentation": {}
+    },
+    {
+        "label": "centena",
+        "kind": 5,
+        "importPath": "desafios.de23",
+        "description": "desafios.de23",
+        "peekOfCode": "centena = n1[1] \nmilhar = n1[0]\nprint(\"\"\"Unidade: {}\nDezena: {}\nCentena: {}\nMilhar: {} \"\"\" .format(unidade, dezena, centena, milhar))",
+        "detail": "desafios.de23",
+        "documentation": {}
+    },
+    {
+        "label": "milhar",
+        "kind": 5,
+        "importPath": "desafios.de23",
+        "description": "desafios.de23",
+        "peekOfCode": "milhar = n1[0]\nprint(\"\"\"Unidade: {}\nDezena: {}\nCentena: {}\nMilhar: {} \"\"\" .format(unidade, dezena, centena, milhar))",
+        "detail": "desafios.de23",
+        "documentation": {}
+    },
+    {
+        "label": "nc",
+        "kind": 5,
+        "importPath": "desafios.de24",
+        "description": "desafios.de24",
+        "peekOfCode": "nc = str(input('Digite o nome da sua cidade: '))\nnv = nc.upper(). find('SANTO')\nprint('Seu nome começa com SANTO? {}'.format(nv))",
+        "detail": "desafios.de24",
+        "documentation": {}
+    },
+    {
+        "label": "nv",
+        "kind": 5,
+        "importPath": "desafios.de24",
+        "description": "desafios.de24",
+        "peekOfCode": "nv = nc.upper(). find('SANTO')\nprint('Seu nome começa com SANTO? {}'.format(nv))",
+        "detail": "desafios.de24",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "desafios.de25",
+        "description": "desafios.de25",
+        "peekOfCode": "nome = str(input('Digite seu nome: '))\nvaria = 'SILVA' in nome.upper()\nprint('Seu nome possui Silva? {}' .format(varia))",
+        "detail": "desafios.de25",
+        "documentation": {}
+    },
+    {
+        "label": "varia",
+        "kind": 5,
+        "importPath": "desafios.de25",
+        "description": "desafios.de25",
+        "peekOfCode": "varia = 'SILVA' in nome.upper()\nprint('Seu nome possui Silva? {}' .format(varia))",
+        "detail": "desafios.de25",
+        "documentation": {}
+    },
+    {
+        "label": "dig",
+        "kind": 5,
+        "importPath": "desafios.de26",
+        "description": "desafios.de26",
+        "peekOfCode": "dig = str(input('Digite uma frase: '))\nletra = dig.upper(). count('A') \npo1 = dig.upper(). find('A') +1\npo2 = dig.upper(). rfind('A') +1\nprint('Quantas vezes aparece a letra A : {}' .format(letra))\nprint('Em que posição ela aparece a primeira vez? {}' .format(po1))\nprint('A última posição em que a letra A aparece é {}' .format(po2))",
+        "detail": "desafios.de26",
+        "documentation": {}
+    },
+    {
+        "label": "letra",
+        "kind": 5,
+        "importPath": "desafios.de26",
+        "description": "desafios.de26",
+        "peekOfCode": "letra = dig.upper(). count('A') \npo1 = dig.upper(). find('A') +1\npo2 = dig.upper(). rfind('A') +1\nprint('Quantas vezes aparece a letra A : {}' .format(letra))\nprint('Em que posição ela aparece a primeira vez? {}' .format(po1))\nprint('A última posição em que a letra A aparece é {}' .format(po2))",
+        "detail": "desafios.de26",
+        "documentation": {}
+    },
+    {
+        "label": "po1",
+        "kind": 5,
+        "importPath": "desafios.de26",
+        "description": "desafios.de26",
+        "peekOfCode": "po1 = dig.upper(). find('A') +1\npo2 = dig.upper(). rfind('A') +1\nprint('Quantas vezes aparece a letra A : {}' .format(letra))\nprint('Em que posição ela aparece a primeira vez? {}' .format(po1))\nprint('A última posição em que a letra A aparece é {}' .format(po2))",
+        "detail": "desafios.de26",
+        "documentation": {}
+    },
+    {
+        "label": "po2",
+        "kind": 5,
+        "importPath": "desafios.de26",
+        "description": "desafios.de26",
+        "peekOfCode": "po2 = dig.upper(). rfind('A') +1\nprint('Quantas vezes aparece a letra A : {}' .format(letra))\nprint('Em que posição ela aparece a primeira vez? {}' .format(po1))\nprint('A última posição em que a letra A aparece é {}' .format(po2))",
+        "detail": "desafios.de26",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "desafios.de27",
+        "description": "desafios.de27",
+        "peekOfCode": "nome = str(input('Digite seu nome: ')).strip()\nn = nome.split()\nprint('Prazer em te conhecer!')\nprint('Seu primeiro nome é {}' .format(n [0]))\nprint('Seu último nome é {}' .format(n [-1]))",
+        "detail": "desafios.de27",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "desafios.de27",
+        "description": "desafios.de27",
+        "peekOfCode": "n = nome.split()\nprint('Prazer em te conhecer!')\nprint('Seu primeiro nome é {}' .format(n [0]))\nprint('Seu último nome é {}' .format(n [-1]))",
+        "detail": "desafios.de27",
         "documentation": {}
     },
     {
