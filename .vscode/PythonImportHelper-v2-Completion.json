@@ -387,6 +387,78 @@
         "documentation": {}
     },
     {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "desafios.de22",
+        "description": "desafios.de22",
+        "peekOfCode": "nome = str(input(\"Digite seu nome: \"))\nmais = nome.upper()\nprint('Nome em maiusculo: {}' .format(mais))\nmin = nome.lower()\nprint('Nome em minusculo: {}' .format(min))\nseme = nome.split()\nsita = len(nome.replace(\" \", \"\"))\nseme2 = len(seme[0])\nprint('Seu nome tem {} letras e o primeiro {}' .format(sita, seme2 ))",
+        "detail": "desafios.de22",
+        "documentation": {}
+    },
+    {
+        "label": "mais",
+        "kind": 5,
+        "importPath": "desafios.de22",
+        "description": "desafios.de22",
+        "peekOfCode": "mais = nome.upper()\nprint('Nome em maiusculo: {}' .format(mais))\nmin = nome.lower()\nprint('Nome em minusculo: {}' .format(min))\nseme = nome.split()\nsita = len(nome.replace(\" \", \"\"))\nseme2 = len(seme[0])\nprint('Seu nome tem {} letras e o primeiro {}' .format(sita, seme2 ))",
+        "detail": "desafios.de22",
+        "documentation": {}
+    },
+    {
+        "label": "min",
+        "kind": 5,
+        "importPath": "desafios.de22",
+        "description": "desafios.de22",
+        "peekOfCode": "min = nome.lower()\nprint('Nome em minusculo: {}' .format(min))\nseme = nome.split()\nsita = len(nome.replace(\" \", \"\"))\nseme2 = len(seme[0])\nprint('Seu nome tem {} letras e o primeiro {}' .format(sita, seme2 ))",
+        "detail": "desafios.de22",
+        "documentation": {}
+    },
+    {
+        "label": "seme",
+        "kind": 5,
+        "importPath": "desafios.de22",
+        "description": "desafios.de22",
+        "peekOfCode": "seme = nome.split()\nsita = len(nome.replace(\" \", \"\"))\nseme2 = len(seme[0])\nprint('Seu nome tem {} letras e o primeiro {}' .format(sita, seme2 ))",
+        "detail": "desafios.de22",
+        "documentation": {}
+    },
+    {
+        "label": "sita",
+        "kind": 5,
+        "importPath": "desafios.de22",
+        "description": "desafios.de22",
+        "peekOfCode": "sita = len(nome.replace(\" \", \"\"))\nseme2 = len(seme[0])\nprint('Seu nome tem {} letras e o primeiro {}' .format(sita, seme2 ))",
+        "detail": "desafios.de22",
+        "documentation": {}
+    },
+    {
+        "label": "seme2",
+        "kind": 5,
+        "importPath": "desafios.de22",
+        "description": "desafios.de22",
+        "peekOfCode": "seme2 = len(seme[0])\nprint('Seu nome tem {} letras e o primeiro {}' .format(sita, seme2 ))",
+        "detail": "desafios.de22",
+        "documentation": {}
+    },
+    {
+        "label": "nal",
+        "kind": 5,
+        "importPath": "desafios.de23",
+        "description": "desafios.de23",
+        "peekOfCode": "nal = \"Digite um número entre 0 a 9999: \"\nun =",
+        "detail": "desafios.de23",
+        "documentation": {}
+    },
+    {
+        "label": "un",
+        "kind": 5,
+        "importPath": "desafios.de23",
+        "description": "desafios.de23",
+        "peekOfCode": "un =",
+        "detail": "desafios.de23",
+        "documentation": {}
+    },
+    {
         "label": "n1",
         "kind": 5,
         "importPath": "desafios.de5",
@@ -681,6 +753,24 @@
         "description": "exercicios.exe06",
         "peekOfCode": "raiz = math.sqrt (n)\nprint('A raiz de {} é igual a {:.2f}' .format(n, raiz))",
         "detail": "exercicios.exe06",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "exercicios.exe09",
+        "description": "exercicios.exe09",
+        "peekOfCode": "frase = 'Curso em vídeo Python'\ndiv = frase.split()\nprint(div[2] [3])",
+        "detail": "exercicios.exe09",
+        "documentation": {}
+    },
+    {
+        "label": "div",
+        "kind": 5,
+        "importPath": "exercicios.exe09",
+        "description": "exercicios.exe09",
+        "peekOfCode": "div = frase.split()\nprint(div[2] [3])",
+        "detail": "exercicios.exe09",
         "documentation": {}
     }
 ]
