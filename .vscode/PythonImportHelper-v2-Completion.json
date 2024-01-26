@@ -1,0 +1,686 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "emoji",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "emoji",
+        "description": "emoji",
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "desafios.de10",
+        "description": "desafios.de10",
+        "peekOfCode": "r = float (input('Quando você possui em reais?: '))\nd = r / 4.93\nprint('Você possui {:.2f} dolares' .format(d ))",
+        "detail": "desafios.de10",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "desafios.de10",
+        "description": "desafios.de10",
+        "peekOfCode": "d = r / 4.93\nprint('Você possui {:.2f} dolares' .format(d ))",
+        "detail": "desafios.de10",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "desafios.de11",
+        "description": "desafios.de11",
+        "peekOfCode": "l = float( input('Me diga a largura de sua parede: '))\na = float( input('Me diga a altura de sua parede: '))\nm = a * l\nt = m / 2\nprint('Sua parede tem a dimensão de {} x {} e a área de {}m²'.format(l, a, m))\nprint('Para pintar essa parede, você precisara de {} litros de tinta' .format(t))",
+        "detail": "desafios.de11",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "desafios.de11",
+        "description": "desafios.de11",
+        "peekOfCode": "a = float( input('Me diga a altura de sua parede: '))\nm = a * l\nt = m / 2\nprint('Sua parede tem a dimensão de {} x {} e a área de {}m²'.format(l, a, m))\nprint('Para pintar essa parede, você precisara de {} litros de tinta' .format(t))",
+        "detail": "desafios.de11",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "desafios.de11",
+        "description": "desafios.de11",
+        "peekOfCode": "m = a * l\nt = m / 2\nprint('Sua parede tem a dimensão de {} x {} e a área de {}m²'.format(l, a, m))\nprint('Para pintar essa parede, você precisara de {} litros de tinta' .format(t))",
+        "detail": "desafios.de11",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "desafios.de11",
+        "description": "desafios.de11",
+        "peekOfCode": "t = m / 2\nprint('Sua parede tem a dimensão de {} x {} e a área de {}m²'.format(l, a, m))\nprint('Para pintar essa parede, você precisara de {} litros de tinta' .format(t))",
+        "detail": "desafios.de11",
+        "documentation": {}
+    },
+    {
+        "label": "v",
+        "kind": 5,
+        "importPath": "desafios.de12",
+        "description": "desafios.de12",
+        "peekOfCode": "v = float( input('Coloque aqui o preço da(s) peça(s): '))\nd = 5 / 100 * v\nvf = v - d\nprint ('Com o desconto da nossa loja você economizou {:.2f}! Total a pagar {}' .format(d, vf))",
+        "detail": "desafios.de12",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "desafios.de12",
+        "description": "desafios.de12",
+        "peekOfCode": "d = 5 / 100 * v\nvf = v - d\nprint ('Com o desconto da nossa loja você economizou {:.2f}! Total a pagar {}' .format(d, vf))",
+        "detail": "desafios.de12",
+        "documentation": {}
+    },
+    {
+        "label": "vf",
+        "kind": 5,
+        "importPath": "desafios.de12",
+        "description": "desafios.de12",
+        "peekOfCode": "vf = v - d\nprint ('Com o desconto da nossa loja você economizou {:.2f}! Total a pagar {}' .format(d, vf))",
+        "detail": "desafios.de12",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "desafios.de13",
+        "description": "desafios.de13",
+        "peekOfCode": "s = float( input('Coloque seu salário atual aqui: '))\ncns = 0.15 * s\nns = cns + s \nprint('Seu novo salário é {}' .format(ns))",
+        "detail": "desafios.de13",
+        "documentation": {}
+    },
+    {
+        "label": "cns",
+        "kind": 5,
+        "importPath": "desafios.de13",
+        "description": "desafios.de13",
+        "peekOfCode": "cns = 0.15 * s\nns = cns + s \nprint('Seu novo salário é {}' .format(ns))",
+        "detail": "desafios.de13",
+        "documentation": {}
+    },
+    {
+        "label": "ns",
+        "kind": 5,
+        "importPath": "desafios.de13",
+        "description": "desafios.de13",
+        "peekOfCode": "ns = cns + s \nprint('Seu novo salário é {}' .format(ns))",
+        "detail": "desafios.de13",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "desafios.de14",
+        "description": "desafios.de14",
+        "peekOfCode": "c = float(input('Informe a temperatura em C: '))\nf = ((9 * c) /5)+ 32\nprint('A temperatura de {}C corresponde a {}F!' .format(c, f))",
+        "detail": "desafios.de14",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "desafios.de14",
+        "description": "desafios.de14",
+        "peekOfCode": "f = ((9 * c) /5)+ 32\nprint('A temperatura de {}C corresponde a {}F!' .format(c, f))",
+        "detail": "desafios.de14",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "desafios.de15",
+        "description": "desafios.de15",
+        "peekOfCode": "d = int( input('Quantos dias rodados?: '))\nkm = int( input('Quantos Km rodados?: '))\ndia = d * 60\nkms = km * 0.15\ntotal = dia + kms\nprint('O valor total ficou em: R${}' .format(total))",
+        "detail": "desafios.de15",
+        "documentation": {}
+    },
+    {
+        "label": "km",
+        "kind": 5,
+        "importPath": "desafios.de15",
+        "description": "desafios.de15",
+        "peekOfCode": "km = int( input('Quantos Km rodados?: '))\ndia = d * 60\nkms = km * 0.15\ntotal = dia + kms\nprint('O valor total ficou em: R${}' .format(total))",
+        "detail": "desafios.de15",
+        "documentation": {}
+    },
+    {
+        "label": "dia",
+        "kind": 5,
+        "importPath": "desafios.de15",
+        "description": "desafios.de15",
+        "peekOfCode": "dia = d * 60\nkms = km * 0.15\ntotal = dia + kms\nprint('O valor total ficou em: R${}' .format(total))",
+        "detail": "desafios.de15",
+        "documentation": {}
+    },
+    {
+        "label": "kms",
+        "kind": 5,
+        "importPath": "desafios.de15",
+        "description": "desafios.de15",
+        "peekOfCode": "kms = km * 0.15\ntotal = dia + kms\nprint('O valor total ficou em: R${}' .format(total))",
+        "detail": "desafios.de15",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "desafios.de15",
+        "description": "desafios.de15",
+        "peekOfCode": "total = dia + kms\nprint('O valor total ficou em: R${}' .format(total))",
+        "detail": "desafios.de15",
+        "documentation": {}
+    },
+    {
+        "label": "real",
+        "kind": 5,
+        "importPath": "desafios.de16",
+        "description": "desafios.de16",
+        "peekOfCode": "real = float(input('Olá, digite seu número real: '))\nint = math.trunc (real)\nprint('O número real {} tem a parte inteira de {}' .format(real, int))",
+        "detail": "desafios.de16",
+        "documentation": {}
+    },
+    {
+        "label": "int",
+        "kind": 5,
+        "importPath": "desafios.de16",
+        "description": "desafios.de16",
+        "peekOfCode": "int = math.trunc (real)\nprint('O número real {} tem a parte inteira de {}' .format(real, int))",
+        "detail": "desafios.de16",
+        "documentation": {}
+    },
+    {
+        "label": "co",
+        "kind": 5,
+        "importPath": "desafios.de17",
+        "description": "desafios.de17",
+        "peekOfCode": "co = float(input('Comprimento do cateto oposto: '))\nca = float(input('Comprimento do cateto adjacente: '))\nh1 = math.hypot(co, ca)\nprint('A hipotenusa vale {:.2f}' .format(h1))",
+        "detail": "desafios.de17",
+        "documentation": {}
+    },
+    {
+        "label": "ca",
+        "kind": 5,
+        "importPath": "desafios.de17",
+        "description": "desafios.de17",
+        "peekOfCode": "ca = float(input('Comprimento do cateto adjacente: '))\nh1 = math.hypot(co, ca)\nprint('A hipotenusa vale {:.2f}' .format(h1))",
+        "detail": "desafios.de17",
+        "documentation": {}
+    },
+    {
+        "label": "h1",
+        "kind": 5,
+        "importPath": "desafios.de17",
+        "description": "desafios.de17",
+        "peekOfCode": "h1 = math.hypot(co, ca)\nprint('A hipotenusa vale {:.2f}' .format(h1))",
+        "detail": "desafios.de17",
+        "documentation": {}
+    },
+    {
+        "label": "an",
+        "kind": 5,
+        "importPath": "desafios.de18",
+        "description": "desafios.de18",
+        "peekOfCode": "an = float(input('Digite o ângulo: '))\nse = math.sin(math.radians(an))\nprint('O ângulo de {} tem o seno de {:.2f}' .format(an, se))\ncos = math.cos(math.radians(an))\nprint('O ângulo de {} tem o cosseno de {:.2f}' .format(an, cos))\ntan = math.tan(math.radians(an))\nprint('O ângulo de {} tem a tangente de {:.2f}' .format(an, tan))",
+        "detail": "desafios.de18",
+        "documentation": {}
+    },
+    {
+        "label": "se",
+        "kind": 5,
+        "importPath": "desafios.de18",
+        "description": "desafios.de18",
+        "peekOfCode": "se = math.sin(math.radians(an))\nprint('O ângulo de {} tem o seno de {:.2f}' .format(an, se))\ncos = math.cos(math.radians(an))\nprint('O ângulo de {} tem o cosseno de {:.2f}' .format(an, cos))\ntan = math.tan(math.radians(an))\nprint('O ângulo de {} tem a tangente de {:.2f}' .format(an, tan))",
+        "detail": "desafios.de18",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "kind": 5,
+        "importPath": "desafios.de18",
+        "description": "desafios.de18",
+        "peekOfCode": "cos = math.cos(math.radians(an))\nprint('O ângulo de {} tem o cosseno de {:.2f}' .format(an, cos))\ntan = math.tan(math.radians(an))\nprint('O ângulo de {} tem a tangente de {:.2f}' .format(an, tan))",
+        "detail": "desafios.de18",
+        "documentation": {}
+    },
+    {
+        "label": "tan",
+        "kind": 5,
+        "importPath": "desafios.de18",
+        "description": "desafios.de18",
+        "peekOfCode": "tan = math.tan(math.radians(an))\nprint('O ângulo de {} tem a tangente de {:.2f}' .format(an, tan))",
+        "detail": "desafios.de18",
+        "documentation": {}
+    },
+    {
+        "label": "a1",
+        "kind": 5,
+        "importPath": "desafios.de19",
+        "description": "desafios.de19",
+        "peekOfCode": "a1 = input('Digite o nome do primeiro aluno: ')\na2 = input('Digite o nome do segundo aluno: ')\na3 = input('Digite o nome do terceiro aluno: ')\na4 = input('Digite o nome do quarto aluno: ')\nlista = [a1, a2, a3, a4]\nesc = random.choice(lista)\nprint('O aluno escoliho foi {}' .format(esc))",
+        "detail": "desafios.de19",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "desafios.de19",
+        "description": "desafios.de19",
+        "peekOfCode": "a2 = input('Digite o nome do segundo aluno: ')\na3 = input('Digite o nome do terceiro aluno: ')\na4 = input('Digite o nome do quarto aluno: ')\nlista = [a1, a2, a3, a4]\nesc = random.choice(lista)\nprint('O aluno escoliho foi {}' .format(esc))",
+        "detail": "desafios.de19",
+        "documentation": {}
+    },
+    {
+        "label": "a3",
+        "kind": 5,
+        "importPath": "desafios.de19",
+        "description": "desafios.de19",
+        "peekOfCode": "a3 = input('Digite o nome do terceiro aluno: ')\na4 = input('Digite o nome do quarto aluno: ')\nlista = [a1, a2, a3, a4]\nesc = random.choice(lista)\nprint('O aluno escoliho foi {}' .format(esc))",
+        "detail": "desafios.de19",
+        "documentation": {}
+    },
+    {
+        "label": "a4",
+        "kind": 5,
+        "importPath": "desafios.de19",
+        "description": "desafios.de19",
+        "peekOfCode": "a4 = input('Digite o nome do quarto aluno: ')\nlista = [a1, a2, a3, a4]\nesc = random.choice(lista)\nprint('O aluno escoliho foi {}' .format(esc))",
+        "detail": "desafios.de19",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "desafios.de19",
+        "description": "desafios.de19",
+        "peekOfCode": "lista = [a1, a2, a3, a4]\nesc = random.choice(lista)\nprint('O aluno escoliho foi {}' .format(esc))",
+        "detail": "desafios.de19",
+        "documentation": {}
+    },
+    {
+        "label": "esc",
+        "kind": 5,
+        "importPath": "desafios.de19",
+        "description": "desafios.de19",
+        "peekOfCode": "esc = random.choice(lista)\nprint('O aluno escoliho foi {}' .format(esc))",
+        "detail": "desafios.de19",
+        "documentation": {}
+    },
+    {
+        "label": "a1",
+        "kind": 5,
+        "importPath": "desafios.de20",
+        "description": "desafios.de20",
+        "peekOfCode": "a1 = str(input('Primeiro aluno: '))\na2 = str(input('Segundo aluno: '))\na3 = str(input('Terceiro aluno: '))\na4 = str(input('Quarto aluno: '))\nlista = [a1, a2, a3, a4] \nrandom.shuffle(lista)\nprint('A ordem de apresentação será: ', end=\" \")\nprint(lista)",
+        "detail": "desafios.de20",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "desafios.de20",
+        "description": "desafios.de20",
+        "peekOfCode": "a2 = str(input('Segundo aluno: '))\na3 = str(input('Terceiro aluno: '))\na4 = str(input('Quarto aluno: '))\nlista = [a1, a2, a3, a4] \nrandom.shuffle(lista)\nprint('A ordem de apresentação será: ', end=\" \")\nprint(lista)",
+        "detail": "desafios.de20",
+        "documentation": {}
+    },
+    {
+        "label": "a3",
+        "kind": 5,
+        "importPath": "desafios.de20",
+        "description": "desafios.de20",
+        "peekOfCode": "a3 = str(input('Terceiro aluno: '))\na4 = str(input('Quarto aluno: '))\nlista = [a1, a2, a3, a4] \nrandom.shuffle(lista)\nprint('A ordem de apresentação será: ', end=\" \")\nprint(lista)",
+        "detail": "desafios.de20",
+        "documentation": {}
+    },
+    {
+        "label": "a4",
+        "kind": 5,
+        "importPath": "desafios.de20",
+        "description": "desafios.de20",
+        "peekOfCode": "a4 = str(input('Quarto aluno: '))\nlista = [a1, a2, a3, a4] \nrandom.shuffle(lista)\nprint('A ordem de apresentação será: ', end=\" \")\nprint(lista)",
+        "detail": "desafios.de20",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "desafios.de20",
+        "description": "desafios.de20",
+        "peekOfCode": "lista = [a1, a2, a3, a4] \nrandom.shuffle(lista)\nprint('A ordem de apresentação será: ', end=\" \")\nprint(lista)",
+        "detail": "desafios.de20",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "desafios.de5",
+        "description": "desafios.de5",
+        "peekOfCode": "n1 = int( input('Escolha o valor: '))\na = n1 - 1\ns = n1 + 1\nprint('O antecessor do seu número é {}, e o sucessor é {}' .format(a, s))",
+        "detail": "desafios.de5",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "desafios.de5",
+        "description": "desafios.de5",
+        "peekOfCode": "a = n1 - 1\ns = n1 + 1\nprint('O antecessor do seu número é {}, e o sucessor é {}' .format(a, s))",
+        "detail": "desafios.de5",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "desafios.de5",
+        "description": "desafios.de5",
+        "peekOfCode": "s = n1 + 1\nprint('O antecessor do seu número é {}, e o sucessor é {}' .format(a, s))",
+        "detail": "desafios.de5",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "desafios.de6",
+        "description": "desafios.de6",
+        "peekOfCode": "n1 = int( input('Escolha seu número: '))\nd = n1 * 2\nt = n1 * 3\nr = n1 ** (1/2)\nprint('O dobro é {}, o triplo é {} e a raiz quadrada é {}' .format(d, t, r))",
+        "detail": "desafios.de6",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "desafios.de6",
+        "description": "desafios.de6",
+        "peekOfCode": "d = n1 * 2\nt = n1 * 3\nr = n1 ** (1/2)\nprint('O dobro é {}, o triplo é {} e a raiz quadrada é {}' .format(d, t, r))",
+        "detail": "desafios.de6",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "desafios.de6",
+        "description": "desafios.de6",
+        "peekOfCode": "t = n1 * 3\nr = n1 ** (1/2)\nprint('O dobro é {}, o triplo é {} e a raiz quadrada é {}' .format(d, t, r))",
+        "detail": "desafios.de6",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "desafios.de6",
+        "description": "desafios.de6",
+        "peekOfCode": "r = n1 ** (1/2)\nprint('O dobro é {}, o triplo é {} e a raiz quadrada é {}' .format(d, t, r))",
+        "detail": "desafios.de6",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "desafios.de7",
+        "description": "desafios.de7",
+        "peekOfCode": "n1 = float( input('Digite sua primeira nota: '))\nn2 = float( input('Digite sua segunda nota: '))\nr = (n1 + n2) / 2\nprint('Sua média é {:.1f}' .format(r))",
+        "detail": "desafios.de7",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "desafios.de7",
+        "description": "desafios.de7",
+        "peekOfCode": "n2 = float( input('Digite sua segunda nota: '))\nr = (n1 + n2) / 2\nprint('Sua média é {:.1f}' .format(r))",
+        "detail": "desafios.de7",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "desafios.de7",
+        "description": "desafios.de7",
+        "peekOfCode": "r = (n1 + n2) / 2\nprint('Sua média é {:.1f}' .format(r))",
+        "detail": "desafios.de7",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "desafios.de8",
+        "description": "desafios.de8",
+        "peekOfCode": "n1 = float( input('Digite seu número: '))\nme = n1\nc = n1 * 100\nm = n1 * 1000\nprint ('Você tem {} metros, centimentos {} e milimetros {}.' .format(me, c, m))",
+        "detail": "desafios.de8",
+        "documentation": {}
+    },
+    {
+        "label": "me",
+        "kind": 5,
+        "importPath": "desafios.de8",
+        "description": "desafios.de8",
+        "peekOfCode": "me = n1\nc = n1 * 100\nm = n1 * 1000\nprint ('Você tem {} metros, centimentos {} e milimetros {}.' .format(me, c, m))",
+        "detail": "desafios.de8",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "desafios.de8",
+        "description": "desafios.de8",
+        "peekOfCode": "c = n1 * 100\nm = n1 * 1000\nprint ('Você tem {} metros, centimentos {} e milimetros {}.' .format(me, c, m))",
+        "detail": "desafios.de8",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "desafios.de8",
+        "description": "desafios.de8",
+        "peekOfCode": "m = n1 * 1000\nprint ('Você tem {} metros, centimentos {} e milimetros {}.' .format(me, c, m))",
+        "detail": "desafios.de8",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "desafios.de9",
+        "description": "desafios.de9",
+        "peekOfCode": "n1 = int(input('Digite seu número: '))\nprint('{} x {:2} = {}' .format(n1, 1, n1*1))\nprint('{} x {:2} = {}' .format(n1, 2, n1*2))\nprint('{} x {:2} = {}' .format(n1, 3, n1*3))\nprint('{} x {:2} = {}' .format(n1, 4, n1*4))\nprint('{} x {:2} = {}' .format(n1, 5, n1*5))\nprint('{} x {:2} = {}' .format(n1, 6, n1*6))\nprint('{} x {:2} = {}' .format(n1, 7, n1*7))\nprint('{} x {:2} = {}' .format(n1, 8, n1*8))\nprint('{} x {:2} = {}' .format(n1, 9, n1*9))",
+        "detail": "desafios.de9",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "exercicios.exe01",
+        "description": "exercicios.exe01",
+        "peekOfCode": "msg = \"Olá, mundo\"\nprint (msg)",
+        "detail": "exercicios.exe01",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "exercicios.exe02",
+        "description": "exercicios.exe02",
+        "peekOfCode": "nome = input('Digite seu nome: ')\nprint('É um prazer te conhecer, {}!'.format(nome))",
+        "detail": "exercicios.exe02",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "exercicios.exe03",
+        "description": "exercicios.exe03",
+        "peekOfCode": "n1 = int(input('Digite um número: '))\nn2 = int(input('Digite o segundo número: '))\nr = n1+n2\nprint('A soma entre {} e {} vale {}'.format(n1, n2, r))\n# int - número inteiro = números sem virgulas\n# float - número quebrados = números com pontos (0.9)\n# bool - valor verdadeiro (True) ou valor falso (False) \n# str - palavras/numeros com aspas",
+        "detail": "exercicios.exe03",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "exercicios.exe03",
+        "description": "exercicios.exe03",
+        "peekOfCode": "n2 = int(input('Digite o segundo número: '))\nr = n1+n2\nprint('A soma entre {} e {} vale {}'.format(n1, n2, r))\n# int - número inteiro = números sem virgulas\n# float - número quebrados = números com pontos (0.9)\n# bool - valor verdadeiro (True) ou valor falso (False) \n# str - palavras/numeros com aspas",
+        "detail": "exercicios.exe03",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "exercicios.exe03",
+        "description": "exercicios.exe03",
+        "peekOfCode": "r = n1+n2\nprint('A soma entre {} e {} vale {}'.format(n1, n2, r))\n# int - número inteiro = números sem virgulas\n# float - número quebrados = números com pontos (0.9)\n# bool - valor verdadeiro (True) ou valor falso (False) \n# str - palavras/numeros com aspas",
+        "detail": "exercicios.exe03",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercicios.exe04",
+        "description": "exercicios.exe04",
+        "peekOfCode": "n = input('Digite qualquer coisa: ')\nprint(n.isalpha())\nprint(n.isalnum())\nprint(n.islower())\nprint(n.isdigit())\nprint(n.isprintable())",
+        "detail": "exercicios.exe04",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "nome = input('Olá, qual é o seu nome? ')\nprint ('Prazer em te conhecer {}!' .format(nome))\nprint ('A seguir vamos descobrir algumas coisas sobre números. Para isso escolha dois números!')\nn1 = int(input('Um valor: '))\nn2 = int(input('Outro Valor: '))\ns = n1 + n2\nm = n1 * n2\nd = n1 / n2\nsub = n1 - n2\np = n1 ** n2",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "n1 = int(input('Um valor: '))\nn2 = int(input('Outro Valor: '))\ns = n1 + n2\nm = n1 * n2\nd = n1 / n2\nsub = n1 - n2\np = n1 ** n2\nrd = n1 % n2\ndi = n1 // n2\nprint('A soma é {}, \\n a multiplicação é {}, a divisão é {}, a subtração é {}' .format(s, m, d, sub))",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "n2 = int(input('Outro Valor: '))\ns = n1 + n2\nm = n1 * n2\nd = n1 / n2\nsub = n1 - n2\np = n1 ** n2\nrd = n1 % n2\ndi = n1 // n2\nprint('A soma é {}, \\n a multiplicação é {}, a divisão é {}, a subtração é {}' .format(s, m, d, sub))\nprint('A divisão inteira é {}, a potencia é {} e o módulo é {}' .format(di, p, rd))",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "s = n1 + n2\nm = n1 * n2\nd = n1 / n2\nsub = n1 - n2\np = n1 ** n2\nrd = n1 % n2\ndi = n1 // n2\nprint('A soma é {}, \\n a multiplicação é {}, a divisão é {}, a subtração é {}' .format(s, m, d, sub))\nprint('A divisão inteira é {}, a potencia é {} e o módulo é {}' .format(di, p, rd))",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "m = n1 * n2\nd = n1 / n2\nsub = n1 - n2\np = n1 ** n2\nrd = n1 % n2\ndi = n1 // n2\nprint('A soma é {}, \\n a multiplicação é {}, a divisão é {}, a subtração é {}' .format(s, m, d, sub))\nprint('A divisão inteira é {}, a potencia é {} e o módulo é {}' .format(di, p, rd))",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "d = n1 / n2\nsub = n1 - n2\np = n1 ** n2\nrd = n1 % n2\ndi = n1 // n2\nprint('A soma é {}, \\n a multiplicação é {}, a divisão é {}, a subtração é {}' .format(s, m, d, sub))\nprint('A divisão inteira é {}, a potencia é {} e o módulo é {}' .format(di, p, rd))",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "sub",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "sub = n1 - n2\np = n1 ** n2\nrd = n1 % n2\ndi = n1 // n2\nprint('A soma é {}, \\n a multiplicação é {}, a divisão é {}, a subtração é {}' .format(s, m, d, sub))\nprint('A divisão inteira é {}, a potencia é {} e o módulo é {}' .format(di, p, rd))",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "p = n1 ** n2\nrd = n1 % n2\ndi = n1 // n2\nprint('A soma é {}, \\n a multiplicação é {}, a divisão é {}, a subtração é {}' .format(s, m, d, sub))\nprint('A divisão inteira é {}, a potencia é {} e o módulo é {}' .format(di, p, rd))",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "rd",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "rd = n1 % n2\ndi = n1 // n2\nprint('A soma é {}, \\n a multiplicação é {}, a divisão é {}, a subtração é {}' .format(s, m, d, sub))\nprint('A divisão inteira é {}, a potencia é {} e o módulo é {}' .format(di, p, rd))",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "di",
+        "kind": 5,
+        "importPath": "exercicios.exe05",
+        "description": "exercicios.exe05",
+        "peekOfCode": "di = n1 // n2\nprint('A soma é {}, \\n a multiplicação é {}, a divisão é {}, a subtração é {}' .format(s, m, d, sub))\nprint('A divisão inteira é {}, a potencia é {} e o módulo é {}' .format(di, p, rd))",
+        "detail": "exercicios.exe05",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercicios.exe06",
+        "description": "exercicios.exe06",
+        "peekOfCode": "n = int( input('Digite um número: '))\nraiz = math.sqrt (n)\nprint('A raiz de {} é igual a {:.2f}' .format(n, raiz))",
+        "detail": "exercicios.exe06",
+        "documentation": {}
+    },
+    {
+        "label": "raiz",
+        "kind": 5,
+        "importPath": "exercicios.exe06",
+        "description": "exercicios.exe06",
+        "peekOfCode": "raiz = math.sqrt (n)\nprint('A raiz de {} é igual a {:.2f}' .format(n, raiz))",
+        "detail": "exercicios.exe06",
+        "documentation": {}
+    }
+]

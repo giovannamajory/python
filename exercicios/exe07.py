@@ -1,3 +1,2 @@
-import random
-na = random.randint (1, 10)
-print(na)
+import emoji
+print(emoji.emojize('Ola mundo! :saluting_face:'))
